@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            GUEST
+        </title>
+    </head>
+    <body bgcolor = lavender>
+        <b><h1>Guest Reservation</h1></b>
+        <form>
+            <fieldset>
+                <legend>General Information</legend>
+                <label>Arrival Date:</label>
+                <input type="text" name="Arrival Date" value="" size="20" maxlength="30">
+                <br>
+                <label>Nights:</label>
+                <input type="text" name="Nights" value="" size="20" maxlength="30">
+                <br>
+                <label>Adults:</label>
+                <select name="Adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                    <option value="4">6</option>
+                    <option value="4">7</option>
+                    <option value="4">8</option>
+                </select>
+                <br>
+                <label>Children:</label>
+                <select name="Children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                    <option value="4">6</option>
+                    <option value="4">7</option>
+                    <option value="4">8</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                    Room type: 
+                    <input type="radio" name="rt" value="Standard" checked>Standard
+                    <input type="radio" name="rt" value="Business">Business 
+                    <input type="radio" name="rt" value="Suite" >Suite
+                    <br>
+                    Bed type: 
+                    <input type="radio" name="bt" value="King" checked>King
+                    <input type="radio" name="bt" value="Double Double">Double Double 
+                    <br>
+                    <input type="checkbox" name="Smoking" value="Yes">Smoking
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Name:</label>
+                <input type="text" name="Name" value="" size="20" maxlength="30">
+                <br>
+                <label>Email:</label>
+                <input type="text" name="Email" value="" size="20" maxlength="30">
+                <br>
+                <label>Phone:</label>
+                <input type="text" name="Phone" value="" size="20" maxlength="30">
+            </fieldset>
+            <input type="submit" name="Send" value="Submit Reservation">
+        </form>
+        
+    </body>
+</html>
